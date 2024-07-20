@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --primary: #C92071;
     --secondary: #B5B6F2;
@@ -12,4 +17,6 @@
     --light-gray-2: #CCCCCC
     --light-gray-3: #F5F5F5
     --white: #FFFFFF;
+
+    font-family: 'Inter', sans-serif;
 }

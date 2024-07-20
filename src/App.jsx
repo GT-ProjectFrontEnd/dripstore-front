@@ -1,12 +1,10 @@
 import './App.css'
 
-function App() {
+export function App() {
 
   return (
     <>
-    
+    <h1>Tá funcionando!</h1>
     </>
   )
 }
-
-export default App
