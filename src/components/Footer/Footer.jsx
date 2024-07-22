@@ -7,7 +7,7 @@ export function Footer() {
     <footer>
       <div id="fColunas">
       <div id="fColuna1">
-      <h2><img src="src\image\logo-branca.png" alt="Digital Store Logo" />Digital Store</h2>
+      <h2><img src="src\image\logo-branca.png" alt="Digital Store Logo"/>Digital Store</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
       <img src="src\image\icone-facebook.png" alt="Facebook"></img>
       <img src="src\image\icone-instagram.png" alt="Instagram"></img>
