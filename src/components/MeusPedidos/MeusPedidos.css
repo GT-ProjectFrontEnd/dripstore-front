@@ -1,5 +1,7 @@
 .meus-pedidos {
     background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
 }
 
 a {
@@ -21,4 +23,20 @@ a {
 
 #menu-opcoes1 {
     color: #C92071;
+}
+
+#status-pedidos {
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+    background-color: #FFFFFF;
+}
+
+#titulo-pedidos {
+    display: flex;
+}
+
+#situacao-pedido {
+    display: flex;
+    justify-content: space-between;
 }

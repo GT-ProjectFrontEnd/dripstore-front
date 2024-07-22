@@ -29,7 +29,20 @@ export function MeusPedidos() {
                     </a>
                 </aside>
 
-                <section>
+                <section id='status-pedidos'>
+                    <div id='titulo-pedidos'>
+                        <h2>Meus Pedidos</h2>
+                        <p>STATUS</p>
+                    </div>
+                    <hr />
+                    <div id='situacao-pedido'>
+                        <img src="../src/image/tenis-pedidos.png" alt="" />
+                        <div>
+                            <p>Pedido n° 2234981932</p>
+                            <p>Tênis Nike Revolution 6 Next Nature Masculino</p>
+                        </div>
+                        <p>Produto em trânsito</p>
+                    </div>
 
                 </section>
 
