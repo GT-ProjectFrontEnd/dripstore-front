@@ -25,8 +25,8 @@ a {
     font-weight: 700;
 }
 
-#menu-opcoes1 {
-    color: #C92071;
+.menu-opcoes:hover{
+    color: #EE4266;
 }
 
 #status-pedidos {

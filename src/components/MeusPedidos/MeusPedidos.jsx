@@ -14,17 +14,17 @@ export function MeusPedidos() {
                     </a>
 
                     <a href="#">
-                        <p className='menu-opcoes' id='menu-opcoes1'>Meus Pedidos</p>
+                        <p className='menu-opcoes'>Meus Pedidos</p>
                         <hr />
                     </a>
 
                     <a href="#">
-                        <p>Minhas Informações</p>
+                        <p className='menu-opcoes'>Minhas Informações</p>
                         <hr />
                     </a>
 
                     <a href="#">
-                        <p>Métodos de pagamento</p>
+                        <p className='menu-opcoes'>Métodos de pagamento</p>
                     </a>
                 </aside>
 
