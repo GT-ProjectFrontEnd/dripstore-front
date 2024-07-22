@@ -1,0 +1,24 @@
+.meus-pedidos {
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+    color: #0b0b0b;
+}
+
+#menu-pedidos {
+    width: 20rem;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-opcoes {
+    font-weight: 700;
+}
+
+#menu-opcoes1 {
+    color: #C92071;
+}
