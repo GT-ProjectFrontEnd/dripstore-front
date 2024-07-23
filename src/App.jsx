@@ -6,7 +6,7 @@ export function App() {
 
   return (
     <>
-      <CriarConta></CriarConta>
+    <CriarConta></CriarConta>
     {/* <Routes>
       <Route path='/' element={<Home/>}/>
     </Routes> */}
