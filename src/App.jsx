@@ -1,12 +1,12 @@
 import {Routes, Route } from 'react-router-dom'
 import './App.css'
-import { CriarConta } from './pages/CriarConta/CriarConta'
+import { FormCriarConta } from './pages/FormCriarConta/FormCriarConta'
 
 export function App() {
 
   return (
     <>
-    <CriarConta></CriarConta>
+    <FormCriarConta/>
     {/* <Routes>
       <Route path='/' element={<Home/>}/>
     </Routes> */}
