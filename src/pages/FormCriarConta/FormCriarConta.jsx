@@ -57,61 +57,71 @@ export function FormCriarConta() {
           </div>
         </div>
         <div className="boxLogin">
-          <div className="form-login"> 
-          <p>Informações de Entrega</p>
+          <div className="form-login">
+            <p>Informações de Entrega</p>
             <form>
               <div>
-            <label htmlFor="login">Nome completo *</label>
-            <input
-              type="text"
-              id="login"
-              placeholder="Insira seu login ou email"
-              className="input"
-              required
-            />
+                <label htmlFor="endereço">Endereço *</label>
+                <input
+                  type="text"
+                  id="endereço"
+                  placeholder="Insira seu endereço"
+                  className="input"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="Bairro">Bairro *</label>
+                <input
+                  type="text"
+                  id="Bairro"
+                  placeholder="Insira seu bairro"
+                  className="input"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="Cidade">Cidade *</label>
+                <input
+                  type="text"
+                  id="Cidade"
+                  placeholder="Insira sua cidade"
+                  className="input"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="CEP">CEP *</label>
+                <input
+                  type="text"
+                  id="CEP"
+                  placeholder="Insira seu CEP"
+                  className="input"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="complemento">Complemento *</label>
+                <input
+                  type="text"
+                  id="complemento"
+                  placeholder="Insira complemento"
+                  className="input"
+                  required
+                />
+              </div>
+            </form>
           </div>
-          <div>
-            <label htmlFor="CPF">CPF *</label>
-            <input
-              type="text"
-              id="CPF"
-              placeholder="Insira seu CPF"
-              className="input"
-              required
-            />
+          <div className="check">
+            <input type="checkbox" id="ofertas" />
+            <p>
+              Quero receber por email ofertas e novidades das lojas da Digital
+              Store. A frequência de envios pode variar de acordo com a
+              interação do cliente.
+            </p>
           </div>
-          <div>
-            <label htmlFor="E-mail">E-mail *</label>
-            <input
-              type="text"
-              id="email"
-              placeholder="Insira seu E-mail"
-              className="input"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="celular">Celular *</label>
-            <input
-              type="text"
-              id="celular"
-              placeholder="Insira seu celular"
-              className="input"
-              required
-            />
-          </div>
-        </form>
-        </div></div>
-        
-        <p>
-          <a href="#">Esqueci minha senha</a>
-        </p>
-        <button type="submit">Acessar Conta</button>
 
-        <div className="lgn-icons">
-          <p>Ou faça login com</p>
-          <img src="src/image/gmail-login.png" alt="" />
-          <img src="src/image/facebook-login.png" alt="" />
+          <button className="button"type="submit">Criar Conta</button>
         </div>
       </main>
       <Footer></Footer>
