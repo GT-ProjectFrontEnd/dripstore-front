@@ -1,11 +1,11 @@
 import './App.css'
-import { ProductListing } from './pages/ProductListing/ProductListing'
+import { Carrossel } from './components/Carrossel/Carrossel'
 
 export function App() {
 
   return (
     <>
-    <ProductListing />
+    <Carrossel />
     </>
   )
 }
