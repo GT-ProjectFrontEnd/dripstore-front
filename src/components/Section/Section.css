@@ -1,3 +1,7 @@
+body {
+    background-color: var(--light-gray-3);
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -13,11 +17,12 @@ section {
 }
 
 #titulo-destaques {
-    margin: 1rem 0;
+    margin: 1rem;
     font-size: 1rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.75px;
+    
 }
 
 .cards-destaque {
@@ -84,4 +89,41 @@ section {
     text-align: center;
     align-items: center;
     border-radius: 0.5rem;
+}
+
+.icone-colecao {
+    width: 45rem;
+    height: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.icones-colecao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-icone {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+ 
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.icones-destaque {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
 }
