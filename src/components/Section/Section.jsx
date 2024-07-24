@@ -1,9 +1,14 @@
 import './Section.css'
+import { Header } from '../Header/Header'
+import { Carrossel } from '../Carrossel/Carrossel'
+import { Footer } from '../Footer/Footer'
 
 export function Section() {
 
   return (
     <>
+    <Header />
+    <Carrossel /> 
       <section>
 
         <div className='container'>
@@ -13,27 +18,27 @@ export function Section() {
 
             <div className='card'>
               <div className='texto-card'>
-                <p>30% OFF</p>
-                <h3>Novo drop Supreme</h3>
-                <a href="#">Comprar</a>
+                <p className='desconto-produto'>30% OFF</p>
+                <h3 className='produto-em-oferta'>Novo drop Supreme</h3>
+                <a className='btn-destaque' href="#">Comprar</a>
               </div>
               <img className='img-card' src="../src/image/camisa-destaques.png" alt="" />
             </div>
 
             <div className='card'>
               <div className='texto-card'>
-                <p>30% OFF</p>
-                <h3>Novo drop Supreme</h3>
-                <a href="#">Comprar</a>
+                <p className='desconto-produto'>30% OFF</p>
+                <h3 className='produto-em-oferta'>Coleção Adidas</h3>
+                <a className='btn-destaque' href="#">Comprar</a>
               </div>
               <img className='img-card' src="../src/image/tenis-destaques.png" alt="" />
             </div>
 
             <div className='card'>
               <div className='texto-card'>
-                <p>30% OFF</p>
-                <h3>Novo drop Supreme</h3>
-                <a href="#">Comprar</a>
+                <p className='desconto-produto'>30% OFF</p>
+                <h3 className='produto-em-oferta'>Novo <br/> Beats Bass</h3>
+                <a className='btn-destaque' href="#">Comprar</a>
               </div>
               <img className='img-card' src="../src/image/fone-destaques.png" alt="" />
             </div>
@@ -43,6 +48,8 @@ export function Section() {
         </div>
 
       </section>
+
+      <Footer />
     </>
   )
 }

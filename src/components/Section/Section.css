@@ -1,19 +1,27 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
-    width: 90%;
+    width: 80%;
     height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 60px;
     padding: 1rem;
 }
 
 #titulo-destaques {
     margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.75px;
 }
 
 .cards-destaque {
-    height: 80%;
+    height: 70%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,9 +34,54 @@
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
+    
 }
 
 .texto-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+.desconto-produto {
+    background-color: #E7FF86;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    padding: 15px, 5px, 15px, 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.produto-em-oferta {
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin: 1rem 0;
+}
+
+.btn-destaque {
+    width: 153px;
+    height: 48px;
+    text-decoration: none;
+    color: var(--primary);
+    background-color: #F7F7FC;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.75px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.5rem;
 }

@@ -24,7 +24,7 @@ export function Carrossel() {
                         </div>
                     </Carousel.Item>
 
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <div className='container-fluid'>
                             <div className='textos-carrossel'>
                                 <h2 className='sub-titulo'>Melhores ofertas personalizadas</h2>
@@ -54,7 +54,7 @@ export function Carrossel() {
                             />
                             <img src="../src/image/decoracao-carrossel.png" className='decoracao-carrossel' />
                         </div>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
 
                 </Carousel>
             </main>
