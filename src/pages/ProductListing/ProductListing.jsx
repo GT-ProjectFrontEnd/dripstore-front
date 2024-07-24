@@ -1,3 +1,4 @@
+import { Footer } from '../../components/Footer/Footer'
 import './ProductListing.css'
 
 export function ProductListing() {
@@ -35,7 +36,7 @@ export function ProductListing() {
               <p className='titulo-item'>Marka</p>
               <ul>
                 <li>
-                  <input type="checkbox" name="marca" id="adidas" checked />
+                  <input type="checkbox" name="marca" id="adidas"/>
                   <label for="adidas">Adiddas</label>
                 </li>
                 <li>
@@ -43,7 +44,7 @@ export function ProductListing() {
                   <label for="calenciaga">Calenciaga</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="marca" id="k-swiss" checked />
+                  <input type="checkbox" name="marca" id="k-swiss"/>
                   <label for="k-swiss">K-Swiss</label>
                 </li>
                 <li>
@@ -60,7 +61,7 @@ export function ProductListing() {
               <p className='titulo-item'>Categoria</p>
               <ul>
                 <li>
-                  <input type="checkbox" name="categoria" id="esporte-e-lazer" checked />
+                  <input type="checkbox" name="categoria" id="esporte-e-lazer"/>
                   <label for="esporte-e-lazer">Esporte e lazer</label>
                 </li>
                 <li>
@@ -81,11 +82,11 @@ export function ProductListing() {
               <p className='titulo-item'>Gênero</p>
               <ul>
                 <li>
-                  <input type="checkbox" name="genero" id="masculino" checked />
+                  <input type="checkbox" name="genero" id="masculino"/>
                   <label for="masculino">Masculino</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="genero" id="feminino" checked />
+                  <input type="checkbox" name="genero" id="feminino"/>
                   <label for="feminino">Feminino</label>
                 </li>
                 <li>
@@ -98,7 +99,7 @@ export function ProductListing() {
               <p className='titulo-item'>Estado</p>
               <ul>
                 <li>
-                  <input type="radio" name="estado" id="novo" checked />
+                  <input type="radio" name="estado" id="novo"/>
                   <label for="novo">Novo</label>
                 </li>
                 <li>
@@ -340,6 +341,8 @@ export function ProductListing() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   )
 }

@@ -1,6 +1,7 @@
 #resultados {
     display: flex;
     justify-content: space-between;
+    
 }
 
 #ordenar-por {
