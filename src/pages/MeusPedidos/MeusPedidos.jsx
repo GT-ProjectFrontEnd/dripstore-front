@@ -1,10 +1,12 @@
 import { Footer } from '../../components/Footer/Footer'
+import { Header } from '../../components/Header/Header'
 import './MeusPedidos.css'
 
 export function MeusPedidos() {
 
     return (
         <>
+            <Header></Header>
             <div className='meus-pedidos'>
 
                 <aside id='menu-pedidos'>

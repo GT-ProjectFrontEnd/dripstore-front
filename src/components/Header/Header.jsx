@@ -52,7 +52,7 @@ export function Header() {
             <div></div>
           </li>
           <li>
-            <Link to="/Requests" className="link">
+            <Link to="/Pedidos" className="link">
               Meus pedidos
             </Link>
             <div></div>
