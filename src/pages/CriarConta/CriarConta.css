@@ -8,10 +8,6 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-header img{
-    margin: 2rem 15rem ;
-}
-
 main{
     background: linear-gradient(180deg, rgba(142, 140, 247, 0.829),rgba(206, 206, 236, 0.829) );
     display: flex;

@@ -5,7 +5,7 @@ export function Header() {
   return (
     <>
       <header className="header-f">
-        <section className="header-main">
+      <section className="header-main">
           <img
             className="logo"
             src="src/image/logo-dc.png"

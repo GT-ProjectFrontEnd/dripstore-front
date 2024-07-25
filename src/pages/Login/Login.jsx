@@ -7,7 +7,7 @@ export function Login() {
   return (
     <>
       <header>
-        <Link to='/'><img src="src/image/logo-dc.png" alt="" /></Link>
+        <Link to='/'><img className="lg-lg" src="src/image/logo-dc.png" alt="" /></Link>
       </header>
       <main>
         <div id="boxLogin">

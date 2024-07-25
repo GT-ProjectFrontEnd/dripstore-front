@@ -6,7 +6,7 @@ export function FormCriarConta() {
   return (
     <>
       <header>
-       <Link to='/'><img src="src/image/logo-dc.png" alt="" /></Link>
+       <Link to='/'><img className='lg-lg' src="src/image/logo-dc.png" alt="" /></Link>
       </header>
       <main className="main">
         <div className="boxLogin t">
