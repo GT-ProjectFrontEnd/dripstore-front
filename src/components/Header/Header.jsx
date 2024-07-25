@@ -22,7 +22,7 @@ export function Header() {
           </div>
 
           <div className="register">
-            <Link to='/CriarConta'><a className="cadastre-se">Cadastre-se</a></Link>
+            <Link to='/CriarConta'><a className="cadastrar">Cadastre-se</a></Link>
             <div className="button-container">
               <Link to='/Login'><a>
                 <button className="button-login">Entrar</button>
