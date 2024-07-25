@@ -4,6 +4,7 @@ import './ProductDetails.css'
 
 export function ProductDetails(){
 
+  
 return (
   <>
   <div class="container">
