@@ -1,6 +1,7 @@
 #resultados {
     display: flex;
     justify-content: space-between;
+    
 }
 
 #ordenar-por {
@@ -11,7 +12,7 @@
     text-decoration: none;
 }
 
-section {
+.section {
     background-color: #F5F5F5;
     font-family: 'Inter', sans-serif;
 }
