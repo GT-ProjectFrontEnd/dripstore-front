@@ -4,17 +4,17 @@ export function Section() {
 
   return (
     <>
-      <section className='section-destaque'>
+      <section className='section-destaque' id='testes'>
 
-        <div className='container-fluid'>
-          <h2 className='titulo-destaques'>Coleções em destaque</h2>
+        <div className='container-fluid' id='container-cards'>
+          <h2 className='titulo-destaques' id='titulo-card-destaque'>Coleções em destaque</h2>
 
           <div className='cards-destaque'>
 
             <div className='card'>
               <div className='texto-card'>
                 <p className='desconto-produto'>30% OFF</p>
-                <h3 className='produto-em-oferta'>Novo drop Supreme</h3>
+                <h3 className='produto-em-oferta'>Novo drop<br/>Supreme</h3>
                 <a className='btn-destaque' href="#">Comprar</a>
               </div>
               <img className='img-card' src="../src/image/camisa-destaques.png" alt="" />
@@ -23,7 +23,7 @@ export function Section() {
             <div className='card'>
               <div className='texto-card'>
                 <p className='desconto-produto'>30% OFF</p>
-                <h3 className='produto-em-oferta'>Coleção Adidas</h3>
+                <h3 className='produto-em-oferta'>Coleção<br/> Adidas</h3>
                 <a className='btn-destaque' href="#">Comprar</a>
               </div>
               <img className='img-card' src="../src/image/tenis-destaques.png" alt="" />
@@ -32,7 +32,7 @@ export function Section() {
             <div className='card'>
               <div className='texto-card'>
                 <p className='desconto-produto'>30% OFF</p>
-                <h3 className='produto-em-oferta'>Novo <br /> Beats Bass</h3>
+                <h3 className='produto-em-oferta'>Novo Beats<br/>Bass</h3>
                 <a className='btn-destaque' href="#">Comprar</a>
               </div>
               <img className='img-card' src="../src/image/fone-destaques.png" alt="" />
@@ -43,7 +43,7 @@ export function Section() {
         </div>
       </section>
 
-      <section className='section-destaque'>
+      <section className='section-destaque' id='testes2'>
         <div className='icone-colecao'>
           <h2 className='titulo-destaques'>Coleções em destaque</h2>
           <div className='icones-destaque'>

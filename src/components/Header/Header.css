@@ -16,14 +16,14 @@
   display: flex;
   flex-wrap: wrap row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   gap: 38px;
   /* margin: 0 2rem; */
 
 }
 
 .search {
-  width: 39rem;
+  width: 40rem;
   height: 40%;
   position: relative;
   display: flex;

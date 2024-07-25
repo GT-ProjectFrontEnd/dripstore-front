@@ -4,19 +4,27 @@
     width: 80%;
     height: 50rem;
     justify-content: space-around;
-    margin: 0 auto 10rem;
+    margin: 2rem auto;
 }
 
 .titulo-em-alta {
     display: flex;
     justify-content: space-between;
-    width: 78%;
+    align-items: center;
+    width: 80%;
     height: 2rem;
     margin: auto;
-
 }
 
-.ver-mais-produtos {
+#titulo-prod-em-alta {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+#ver-mais-produtos {
     color: var(--primary);
     font-size: 1rem;
     font-weight: 600;
@@ -54,7 +62,6 @@
 .texto-produto h3 {
     font-size: 1.5rem;
     font-weight: normal;
-    
 }
 
 p span {
@@ -81,6 +88,7 @@ p span {
 
 .produto:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .ver-mais-produtos:hover {

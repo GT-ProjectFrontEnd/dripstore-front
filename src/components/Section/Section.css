@@ -2,35 +2,52 @@ body {
     background-color: var(--light-gray-3);
 }
 
+.container-fluid {
+    justify-content: center;
+}
+
 .section-destaque {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
-.container {
-    width: 80%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-}
-
-#titulo-destaques {
-    margin: 1rem;
-    font-size: 1rem;
+.titulo-destaques {
+    padding-bottom: 0;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.75px;
-    
+    color: var(--dark-gray-2); 
+    margin: auto; 
+}
+
+#container-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#titulo-card-destaque {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    padding-left: 0;
 }
 
 .cards-destaque {
-    height: 70%;
-    width: 100%;
+    height: 30%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    margin-bottom: 0.5px;
+    margin-top: 0.05px;
+    gap: 10px;
 }
+
 
 .card {
     height: 100%;
@@ -45,11 +62,19 @@ body {
 .texto-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 2rem;
+    justify-content: space-around;
+    margin-left: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     line-height: 2rem;
+    width: 33%;
+}
+
+.img-card {
+    width: 60%;
+    height: 80%;
+    position: relative;
+    right: 0;
 }
 
 .desconto-produto {
@@ -69,9 +94,11 @@ body {
 .produto-em-oferta {
     font-family: 'Inter';
     font-size: 2rem;
+    line-height: 2.1rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-    margin: 1rem 0;
+    padding: 1rem 0;
+    position: absolute;
 }
 
 .btn-destaque {
@@ -89,6 +116,12 @@ body {
     text-align: center;
     align-items: center;
     border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.btn-destaque:hover {
+    background-color: var(--success);
+    color: var(--light-gray-3);
 }
 
 .icone-colecao {
@@ -117,7 +150,6 @@ body {
     background-color: var(--white);
     padding: 1rem;
     border-radius: 50%;
- 
     margin-left: 1rem;
     margin-right: 1rem;
 }

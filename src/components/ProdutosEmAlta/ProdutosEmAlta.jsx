@@ -1,22 +1,13 @@
 import './ProdutosEmAlta.css'
-import { Header } from '../Header/Header'
-import { Carrossel } from '../Carrossel/Carrossel'
-import { Section } from '../Section/Section'
-import { Footer } from '../Footer/Footer'
-import { OfertaEspecial } from '../OfertaEspecial/OfertaEspecial'
 
 export function ProdutosEmAlta() {
 
   return (
     <>
-      <Header />
-      <Carrossel />
-      <Section />
-
       <div className='titulo-em-alta'>
-          <h2>Produtos em alta</h2>
-          <a className='ver-mais-produtos' href="#">Ver todos →</a>
-        </div>
+        <h2 lassName='titulo-em-alta' id='titulo-prod-em-alta'>Produtos em alta</h2>
+        <a lassName='titulo-em-alta' id='ver-mais-produtos' href="#">Ver todos →</a>
+      </div>
       <div className='container-fluid' id='itens'>
 
         <div className='produto'>
@@ -140,8 +131,6 @@ export function ProdutosEmAlta() {
         </div>
 
       </div>
-      <OfertaEspecial />
-      <Footer />
     </>
   )
 }
