@@ -40,7 +40,7 @@ export function Header() {
             <div></div>
           </li>
           <li>
-            <Link to="/Products" className="link">
+            <Link to="/Produtos" className="link">
               Produtos
             </Link>
             <div></div>

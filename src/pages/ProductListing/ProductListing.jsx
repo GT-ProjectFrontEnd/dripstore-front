@@ -1,3 +1,4 @@
+import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import './ProductListing.css'
 
@@ -5,7 +6,8 @@ export function ProductListing() {
 
   return (
     <>
-      <section>
+    <Header></Header>
+      <section className='section'>
         <div className='container' id='resultados'>
           <h2>Resultados para "Tênis" <span id='quant-produtos'>- 389 produtos</span></h2>
           <div className="btn-group">
