@@ -1,14 +1,9 @@
 import './Section.css'
-import { Header } from '../Header/Header'
-import { Carrossel } from '../Carrossel/Carrossel'
-import { Footer } from '../Footer/Footer'
 
 export function Section() {
 
   return (
     <>
-      <Header />
-      <Carrossel />
       <section>
 
         <div className='container'>
@@ -90,8 +85,6 @@ export function Section() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   )
 }
