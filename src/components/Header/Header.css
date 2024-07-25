@@ -19,15 +19,8 @@
   align-items: center;
   justify-content: left;
   gap: 38px;
-  margin-left: 18rem;
 
 }
-
-.logo {
-  width: 15.813rem;
-  height: 2.75rem;
-}
-
 .search {
   width: 35%;
   height: 40%;
@@ -105,7 +98,7 @@
     display: flex;
     flex-wrap: wrap row;
     gap: 30px;
-    margin-left: 18rem;
+    margin-left: 30rem;
   
   }
   .nav li {

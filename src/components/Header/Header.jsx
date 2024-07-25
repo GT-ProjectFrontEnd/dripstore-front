@@ -21,11 +21,11 @@ export function Header() {
             <img src="src/image/lupa.png" alt=""></img>
           </div>
           <div className="register">
-            <a href="">Cadastre-se</a>
+            <Link to='/CriarConta'><a >Cadastre-se</a></Link>
             <div className="button-container">
-              <a href="#">
+              <Link to='/Login'><a>
                 <button className="button-login">Entrar</button>
-              </a>{" "}
+              </a>{" "}</Link>
             </div>
           </div>
           <div className="cart">

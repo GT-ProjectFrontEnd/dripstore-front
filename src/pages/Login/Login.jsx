@@ -1,19 +1,20 @@
 import './Login.css'
 import { Footer } from "../../components/Footer/Footer";
+import {Link} from 'react-router-dom'
 
 
 export function Login() {
   return (
     <>
       <header>
-        <img src="src/image/logo-dc.png" alt="" />
+        <Link to='/'><img src="src/image/logo-dc.png" alt="" /></Link>
       </header>
       <main>
         <div id="boxLogin">
           <div className="form-login">
             <h2>Acesse sua conta</h2>
             <p>
-              Novo cliente? Então registre-se <a href="#">aqui</a>.
+              Novo cliente? Então registre-se <Link to='/CriarConta'><a href="#">aqui</a></Link>.
             </p>
             <form>
               <div>

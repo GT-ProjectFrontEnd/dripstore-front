@@ -1,5 +1,5 @@
 import "./CriarConta.css";
-
+import { Link } from "react-router-dom";
 import { Footer } from "../../components/Footer/Footer";
 
 
@@ -7,14 +7,14 @@ export function CriarConta() {
   return (
     <>
       <header>
-        <img src="src/image/logo-dc.png" alt="" />
+       <Link to='/'><img src="src/image/logo-dc.png" alt="" /></Link>
       </header>
       <main>
         <div id="boxLogin">
           <div className="form-login">
             <h2>Crie sua conta</h2>
             <p>
-              Novo cliente? Então registre-se <a href="#">aqui</a>.
+              Já possui uma conta? Entre <Link to='/Login'><a href="#">aqui</a></Link>.
             </p>
             <form>
               <div>
@@ -24,7 +24,7 @@ export function CriarConta() {
               <p>
                 <a href="#">Esqueci minha senha</a>
               </p>
-              <button type="submit"> Criar Conta</button>
+              <Link to='/FormCriarConta'><button type="submit"> Criar Conta</button></Link>
             </form>
             <div className="lgn-icons">
               <p>Ou faça login com</p>

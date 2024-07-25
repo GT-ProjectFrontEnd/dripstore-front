@@ -1,13 +1,14 @@
-import "./FormCriarConta.css";
+import {Link} from 'react-router-dom'
+import "../FormCriarConta/FormCriarConta.css";
 import { Footer } from "../../components/Footer/Footer";
 
 export function FormCriarConta() {
   return (
     <>
       <header>
-        <img src="src/image/logo-dc.png" alt="" />
+       <Link to='/'><img src="src/image/logo-dc.png" alt="" /></Link>
       </header>
-      <main>
+      <main className="main">
         <div className="boxLogin t">
           <h2>Criar Conta</h2>
           <div className="form-login">
