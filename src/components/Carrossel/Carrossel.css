@@ -1,0 +1,77 @@
+.container-fluid {
+    background-color: var(--light-gray-3);
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagem-carrossel {
+    height: 90%;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+.decoracao-carrossel {
+    width: 140px;
+    height: 140px;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+.textos-carrossel {
+    width: 510px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+.sub-titulo {
+    color: var(--warning);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    line-height: 1.5rem;
+ 
+}
+
+.titulo-carrossel {
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.fire-carrossel {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.texto-carrossel {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.75px;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ver-ofertas {
+    background-color: var(--primary);
+    text-decoration: none;
+    color: var(--light-gray-3);
+    margin-top: 2rem;
+    width: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.ver-ofertas:hover {
+    background-color: var(--tertiary);
+}
