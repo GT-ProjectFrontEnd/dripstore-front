@@ -4,9 +4,9 @@ export function Section() {
 
   return (
     <>
-      <section>
+      <section className='section-destaque'>
 
-        <div className='container'>
+        <div className='container-fluid'>
           <h2 className='titulo-destaques'>Coleções em destaque</h2>
 
           <div className='cards-destaque'>
@@ -43,7 +43,7 @@ export function Section() {
         </div>
       </section>
 
-      <section>
+      <section className='section-destaque'>
         <div className='icone-colecao'>
           <h2 className='titulo-destaques'>Coleções em destaque</h2>
           <div className='icones-destaque'>

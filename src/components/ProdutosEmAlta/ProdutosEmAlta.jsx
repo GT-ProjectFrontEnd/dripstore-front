@@ -3,6 +3,7 @@ import { Header } from '../Header/Header'
 import { Carrossel } from '../Carrossel/Carrossel'
 import { Section } from '../Section/Section'
 import { Footer } from '../Footer/Footer'
+import { OfertaEspecial } from '../OfertaEspecial/OfertaEspecial'
 
 export function ProdutosEmAlta() {
 
@@ -11,9 +12,10 @@ export function ProdutosEmAlta() {
       <Header />
       <Carrossel />
       <Section />
+
       <div className='titulo-em-alta'>
           <h2>Produtos em alta</h2>
-          <a className='ver-mais-produtos' href="">Ver todos →</a>
+          <a className='ver-mais-produtos' href="#">Ver todos →</a>
         </div>
       <div className='container-fluid' id='itens'>
 
@@ -138,6 +140,7 @@ export function ProdutosEmAlta() {
         </div>
 
       </div>
+      <OfertaEspecial />
       <Footer />
     </>
   )
