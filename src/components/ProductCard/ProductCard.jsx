@@ -15,7 +15,7 @@ export function ProductCard() {
                             <h2>Meu Carrinho</h2>
                             <div class="cart-items">
                                 <div class="cart-item">
-                                    {/* <!-- <img src="tenisimagem" alt="Tênis Nike Revolution 6 Next Nature Masculino"> --> */}
+                                    <img src="../src/image/tenis_revolution.png" alt="Tênis Nike Revolution 6 Next Nature Masculino"/>
                                     <div class="cart-item-info">
                                         <h3>Tênis Nike Revolution 6 Next Nature Masculino</h3>
                                         <p>Cor: Vermelho / Branco</p>
@@ -59,25 +59,25 @@ export function ProductCard() {
                             <div class="products">
                                 <div class="product">
                                     <div class="discount">30% OFF</div>
-                                    {/* <!-- <img src="tenisimagem" alt="Tênis Nike Revolution 6 Next Nature Masculino"> --> */}
+                                      <img src="../src/image/tenis_revolution.png" alt="Tênis Nike Revolution 6 Next Nature Masculino"/>
                                     <h3>Tênis</h3>
                                     <h4>K-Swiss V8 - Masculino</h4>
                                     <p><s>R$ 200</s> <span>R$ 100</span></p>
                                 </div>
                                 <div class="product">
-                                    {/* <!-- <img src="tenisimagem" alt="Tênis Nike Revolution 6 Next Nature Masculino"> --> */}
+                                      <img src="../src/image/tenis_revolution.png" alt="Tênis Nike Revolution 6 Next Nature Masculino"/>
                                     <h3>Tênis</h3>
                                     <h4>K-Swiss V8 - Masculino</h4>
                                     <p><s>R$ 200</s> <span>R$ 100</span></p>
                                 </div>
                                 <div class="product">
-                                    {/* <!-- <img src="tenisimagem" alt="Tênis Nike Revolution 6 Next Nature Masculino"> --> */}
+                                      <img src="../src/image/tenis_revolution.png" alt="Tênis Nike Revolution 6 Next Nature Masculino"/>
                                     <h3>Tênis</h3>
                                     <h4>K-Swiss V8 - Masculino</h4>
                                     <p><s>R$ 200</s> <span>R$ 100</span></p>
                                 </div>
                                 <div class="product">
-                                    {/* <!-- <img src="tenisimagem" alt="Tênis Nike Revolution 6 Next Nature Masculino"> --> */}
+                                <img src="../src/image/tenis_revolution.png" alt="Tênis Nike Revolution 6 Next Nature Masculino"/>
                                     <h3>Tênis</h3>
                                     <h4>K-Swiss V8 - Masculino</h4>
                                     <p><s>R$ 200</s> <span>R$ 100</span></p>
