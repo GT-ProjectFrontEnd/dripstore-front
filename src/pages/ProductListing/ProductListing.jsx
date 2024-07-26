@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import './ProductListing.css'
@@ -7,7 +7,7 @@ export function ProductListing() {
 
   return (
     <>
-    <Header></Header>
+      <Header></Header>
       <section className='section'>
         <div className='container' id='resultados'>
           <h2 className='h2'>Resultados para "Tênis" <span id='quant-produtos'>- 389 produtos</span></h2>
@@ -39,7 +39,7 @@ export function ProductListing() {
               <p className='titulo-item'>Marka</p>
               <ul>
                 <li>
-                  <input type="checkbox" name="marca" id="adidas"/>
+                  <input type="checkbox" name="marca" id="adidas" />
                   <label htmlFor="adidas">Adiddas</label>
                 </li>
                 <li>
@@ -47,7 +47,7 @@ export function ProductListing() {
                   <label htmlFor="calenciaga">Calenciaga</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="marca" id="k-swiss"/>
+                  <input type="checkbox" name="marca" id="k-swiss" />
                   <label htmlFor="k-swiss">K-Swiss</label>
                 </li>
                 <li>
@@ -64,7 +64,7 @@ export function ProductListing() {
               <p className='titulo-item'>Categoria</p>
               <ul>
                 <li>
-                  <input type="checkbox" name="categoria" id="esporte-e-lazer"/>
+                  <input type="checkbox" name="categoria" id="esporte-e-lazer" />
                   <label htmlFor="esporte-e-lazer">Esporte e lazer</label>
                 </li>
                 <li>
@@ -85,11 +85,11 @@ export function ProductListing() {
               <p className='titulo-item'>Gênero</p>
               <ul>
                 <li>
-                  <input type="checkbox" name="genero" id="masculino"/>
+                  <input type="checkbox" name="genero" id="masculino" />
                   <label htmlFor="masculino">Masculino</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="genero" id="feminino"/>
+                  <input type="checkbox" name="genero" id="feminino" />
                   <label htmlFor="feminino">Feminino</label>
                 </li>
                 <li>
@@ -102,7 +102,7 @@ export function ProductListing() {
               <p className='titulo-item'>Estado</p>
               <ul>
                 <li>
-                  <input type="radio" name="estado" id="novo"/>
+                  <input type="radio" name="estado" id="novo" />
                   <label htmlFor="novo">Novo</label>
                 </li>
                 <li>
@@ -116,7 +116,24 @@ export function ProductListing() {
 
           {/* Lista de Produtos */}
           <div className='container' id='itens'>
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'>
+              <div className='produto'>
+                <div className='imagem-produto'>
+                  <p className='discount1'>30% OFF</p>
+                  <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
+                </div>
+                <div className='texto-produto'>
+                  <h4>Tênis</h4>
+                  <h3>K-Swiss V8 - Masculino</h3>
+                  <p>
+                    <span>$200</span>
+                    <span className='valor'>$100</span>
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount1'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -131,22 +148,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
-              <div className='imagem-produto'>
-                <p className='discount1'>30% OFF</p>
-                <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
-              </div>
-              <div className='texto-produto'>
-                <h4>Tênis</h4>
-                <h3>K-Swiss V8 - Masculino</h3>
-                <p>
-                  <span>$200</span>
-                  <span className='valor'>$100</span>
-                </p>
-              </div>
-            </div></Link>
-
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -161,7 +163,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -176,7 +178,24 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'>
+              <div className='produto'>
+                <div className='imagem-produto'>
+                  <p className='discount'>30% OFF</p>
+                  <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
+                </div>
+                <div className='texto-produto'>
+                  <h4>Tênis</h4>
+                  <h3>K-Swiss V8 - Masculino</h3>
+                  <p>
+                    <span>$200</span>
+                    <span className='valor'>$100</span>
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -191,7 +210,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -206,7 +225,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -221,7 +240,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -236,7 +255,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -251,22 +270,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link to='ProductDetails'><div className='produto'>
-              <div className='imagem-produto'>
-                <p className='discount'>30% OFF</p>
-                <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
-              </div>
-              <div className='texto-produto'>
-                <h4>Tênis</h4>
-                <h3>K-Swiss V8 - Masculino</h3>
-                <p>
-                  <span>$200</span>
-                  <span className='valor'>$100</span>
-                </p>
-              </div>
-            </div></Link>
-
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -283,7 +287,7 @@ export function ProductListing() {
 
 
 
-            <Link to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
