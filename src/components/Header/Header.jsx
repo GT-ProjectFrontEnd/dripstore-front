@@ -5,7 +5,7 @@ export function Header() {
   return (
     <>
       <header className="header-f">
-        <section className="header-main">
+      <section className="header-main">
           <img
             className="logo"
             src="src/image/logo-dc.png"
@@ -21,11 +21,11 @@ export function Header() {
             <img src="src/image/lupa.png" alt=""></img>
           </div>
           <div className="register">
-            <a href="">Cadastre-se</a>
+            <Link to='/CriarConta'><a >Cadastre-se</a></Link>
             <div className="button-container">
-              <a href="#">
+              <Link to='/Login'><a>
                 <button className="button-login">Entrar</button>
-              </a>{" "}
+              </a>{" "}</Link>
             </div>
           </div>
           <div className="cart">
@@ -40,7 +40,7 @@ export function Header() {
             <div></div>
           </li>
           <li>
-            <Link to="/Products" className="link">
+            <Link to="/Produtos" className="link">
               Produtos
             </Link>
             <div></div>
@@ -52,7 +52,7 @@ export function Header() {
             <div></div>
           </li>
           <li>
-            <Link to="/Requests" className="link">
+            <Link to="/Pedidos" className="link">
               Meus pedidos
             </Link>
             <div></div>
