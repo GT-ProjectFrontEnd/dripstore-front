@@ -48,7 +48,7 @@ export function Header() {
             <div></div>
           </li>
           <li>
-            <Link to="/Categories" className="link">
+            <Link to="/" className="link">
               Categorias
             </Link>
             <div></div>
