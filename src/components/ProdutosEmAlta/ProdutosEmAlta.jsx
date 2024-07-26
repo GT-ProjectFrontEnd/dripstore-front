@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ProdutosEmAlta.css'
 
 export function ProdutosEmAlta() {
@@ -5,12 +6,12 @@ export function ProdutosEmAlta() {
   return (
     <>
       <div className='titulo-em-alta'>
-        <h2 lassName='titulo-em-alta' id='titulo-prod-em-alta'>Produtos em alta</h2>
-        <a lassName='titulo-em-alta' id='ver-mais-produtos' href="#">Ver todos →</a>
+        <h2 className='titulo-em-alta' id='titulo-prod-em-alta'>Produtos em alta</h2>
+        <a className='titulo-em-alta' id='ver-mais-produtos' href="#">Ver todos →</a>
       </div>
-      <div className='container-fluid' id='itens'>
+      <div className='container-fluid' id='itens-1'>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount1'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -25,7 +26,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount1'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -40,7 +41,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -55,7 +56,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -70,7 +71,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -85,7 +86,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -100,7 +101,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -115,7 +116,7 @@ export function ProdutosEmAlta() {
           </div>
         </div>
 
-        <div className='produto'>
+        <div className='produto-2'>
           <div className='imagem-produto'>
             <p className='discount'>30% OFF</p>
             <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />

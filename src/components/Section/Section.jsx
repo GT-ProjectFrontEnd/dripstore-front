@@ -11,7 +11,7 @@ export function Section() {
 
           <div className='cards-destaque'>
 
-            <div className='card'>
+            <div className='card-2'>
               <div className='texto-card'>
                 <p className='desconto-produto'>30% OFF</p>
                 <h3 className='produto-em-oferta'>Novo drop<br/>Supreme</h3>
@@ -20,7 +20,7 @@ export function Section() {
               <img className='img-card' src="../src/image/camisa-destaques.png" alt="" />
             </div>
 
-            <div className='card'>
+            <div className='card-2'>
               <div className='texto-card'>
                 <p className='desconto-produto'>30% OFF</p>
                 <h3 className='produto-em-oferta'>Coleção<br/> Adidas</h3>
@@ -29,7 +29,7 @@ export function Section() {
               <img className='img-card' src="../src/image/tenis-destaques.png" alt="" />
             </div>
 
-            <div className='card'>
+            <div className='card-2'>
               <div className='texto-card'>
                 <p className='desconto-produto'>30% OFF</p>
                 <h3 className='produto-em-oferta'>Novo Beats<br/>Bass</h3>

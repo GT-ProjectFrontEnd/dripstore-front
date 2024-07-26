@@ -1,4 +1,4 @@
-#itens {
+#itens-1 {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -30,6 +30,8 @@
     font-weight: 600;
     letter-spacing: 0.75px;
     overflow-x: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .imagem-produto {
@@ -77,7 +79,7 @@ p span {
     color: #080808;
 }
 
-.produto {
+.produto-2 {
     width: 25%;
     height: 2rem;
     padding: 10px;

@@ -10,7 +10,7 @@ export function ProductListing() {
     <Header></Header>
       <section className='section'>
         <div className='container' id='resultados'>
-          <h2>Resultados para "Tênis" <span id='quant-produtos'>- 389 produtos</span></h2>
+          <h2 className='h2'>Resultados para "Tênis" <span id='quant-produtos'>- 389 produtos</span></h2>
           <div className="btn-group">
             <button id='ordenar-por' type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               Ordenar por: <span id='ordenar'>mais relevantes</span>
