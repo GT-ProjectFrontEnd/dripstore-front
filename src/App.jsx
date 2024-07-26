@@ -29,7 +29,7 @@ export function App() {
 
       </Routes>
 
-      <ConfirmarCompra />
+      <MeusPedidos />
     </>
   )
 }
