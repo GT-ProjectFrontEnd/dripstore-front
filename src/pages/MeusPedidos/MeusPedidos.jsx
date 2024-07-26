@@ -6,6 +6,7 @@ export function MeusPedidos() {
 
     return (
         <>
+            <Header></Header>
             <div className='meus-pedidos'>
 
                 <aside id='menu-pedidos'>

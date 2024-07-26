@@ -9,7 +9,7 @@ export function ProductDetails(){
 return (
   <>
   <Header/>
-  <div className="container">
+  <div className="container-5">
     <div className="content">
       <div className="product">
         <img src='../src/image/air-force-detail.png'/>
