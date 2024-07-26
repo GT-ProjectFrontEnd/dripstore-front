@@ -1,5 +1,6 @@
-import {Header} from '../Header/Header'
-import {Footer} from '../Footer/Footer'
+import {Header} from '../../components/Header/Header'
+import { Link } from 'react-router-dom'
+import {Footer} from '../../components/Footer/Footer'
 import './ProductDetails.css'
 
 export function ProductDetails(){
@@ -45,7 +46,7 @@ return (
               <div className='color_unid' id='preto' ></div>
               <div className='color_unid'id='roxo'></div>
             </div>
-            <button className="button">COMPRAR</button>
+            <Link to='/ConfirmarCompra'><button className="button">COMPRAR</button></Link>
           </div>
 
       </div>

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import './ProductListing.css'
@@ -115,7 +116,7 @@ export function ProductListing() {
 
           {/* Lista de Produtos */}
           <div className='container' id='itens'>
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount1'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -128,9 +129,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount1'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -143,9 +144,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -158,9 +159,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -173,9 +174,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -188,9 +189,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -203,9 +204,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -218,9 +219,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -233,9 +234,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -248,9 +249,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -263,9 +264,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -278,9 +279,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -293,9 +294,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -308,9 +309,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -323,9 +324,9 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
-            <div className='produto'>
+            <Link to='ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -338,7 +339,7 @@ export function ProductListing() {
                   <span className='valor'>$100</span>
                 </p>
               </div>
-            </div>
+            </div></Link>
 
           </div>
         </div>

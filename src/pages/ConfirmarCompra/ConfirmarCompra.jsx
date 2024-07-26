@@ -1,10 +1,12 @@
-
+import { Header  } from '../../components/Header/Header'
+import { Footer } from '../../components/Footer/Footer'
 import './ConfirmarCompra.css'
 
 export function ConfirmarCompra() {
 
   return (
     <>
+      <Header></Header>
       <div className="container-confirm-compra">
         <h1 id='h1-finaliz-compra'>Finalizar Compra</h1>
 
@@ -135,6 +137,7 @@ export function ConfirmarCompra() {
 
 
       </div>
+      <Footer></Footer>
 
 
     </>
