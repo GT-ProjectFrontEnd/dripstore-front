@@ -10,7 +10,6 @@ import { MeusPedidos } from './pages/MeusPedidos/MeusPedidos'
 import {ProductDetails} from './pages/ProductDetails/ProductDetails'
 import { ConfirmarCompra } from './pages/ConfirmarCompra/ConfirmarCompra'
 
-
 export function App() {
 
   return (
