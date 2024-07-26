@@ -116,7 +116,7 @@ export function ProductListing() {
 
           {/* Lista de Produtos */}
           <div className='container' id='itens'>
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'>
               <div className='produto'>
                 <div className='imagem-produto'>
                   <p className='discount1'>30% OFF</p>
@@ -133,7 +133,7 @@ export function ProductListing() {
               </div>
             </Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount1'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -148,7 +148,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -163,7 +163,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -178,7 +178,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'>
               <div className='produto'>
                 <div className='imagem-produto'>
                   <p className='discount'>30% OFF</p>
@@ -195,7 +195,7 @@ export function ProductListing() {
               </div>
             </Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -210,7 +210,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -225,7 +225,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -240,7 +240,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -255,7 +255,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -270,7 +270,7 @@ export function ProductListing() {
               </div>
             </div></Link>
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
@@ -287,7 +287,7 @@ export function ProductListing() {
 
 
 
-            <Link style={{ textDecoration: 'none', color: 'black' }} to='ProductDetails'><div className='produto'>
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/ProductDetails'><div className='produto'>
               <div className='imagem-produto'>
                 <p className='discount'>30% OFF</p>
                 <img className='img-item' src="../src/image/tenis-catalogo.png" alt="" />
