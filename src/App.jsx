@@ -13,6 +13,7 @@ import { Section } from '../src/components/Section/Section'
 import { ProdutosEmAlta } from '../src/components/ProdutosEmAlta/ProdutosEmAlta'
 import { OfertaEspecial } from '../src/components/OfertaEspecial/OfertaEspecial'
 import { Footer } from './components/Footer/Footer'
+import { ConfirmarCompra } from './pages/ConfirmarCompra/ConfirmarCompra'
 
 export function App() {
 
@@ -28,11 +29,7 @@ export function App() {
 
       </Routes>
 
-      <Carrossel />
-      <Section />
-      <ProdutosEmAlta />
-      <OfertaEspecial />
-      <Footer />
+      <ConfirmarCompra />
     </>
   )
 }
