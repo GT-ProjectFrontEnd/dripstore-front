@@ -50,7 +50,7 @@ export function Footer() {
           </div>
         </div>
         <hr />
-        <p id='direitos'>@ 2023 Digital College</p>
+        <p id='direitos'>© 2024 Digital College</p>
       </footer>
     </>
   )

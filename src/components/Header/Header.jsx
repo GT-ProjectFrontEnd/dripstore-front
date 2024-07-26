@@ -5,7 +5,7 @@ export function Header() {
   return (
     <>
       <header className="header-f">
-      <section className="header-main">
+        <section className="header-main">
           <img
             className="logo"
             src="src/image/logo-dc.png"
@@ -20,17 +20,19 @@ export function Header() {
             />
             <img src="src/image/lupa.png" alt=""></img>
           </div>
+
           <div className="register">
-            <Link to='/CriarConta'><a >Cadastre-se</a></Link>
+            <Link to='/CriarConta'><a className="cadastrar">Cadastre-se</a></Link>
             <div className="button-container">
               <Link to='/Login'><a>
                 <button className="button-login">Entrar</button>
               </a>{" "}</Link>
             </div>
+            <img className="cart" src="src/image/carrinho.png" alt="" />
           </div>
-          <div className="cart">
+          {/* <div className="cart">
             <img src="src/image/carrinho.png" alt="" />
-          </div>
+          </div> */}
         </section>
         <nav className="nav">
           <li>
